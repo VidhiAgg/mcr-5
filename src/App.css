@@ -1,5 +1,48 @@
 .App {
   text-align: center;
+  margin: 1rem;
+  
 }
 
+.home-page, .main-conatiner
+{
+  display: flex;
+  flex-direction: column;
+}
+.search-conatiner{
 
+  display: flex;
+  border: 10px solid lightgray;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 100%;
+
+}
+.add-container button{
+ background-color: none;
+ border: none;
+ border-radius: 50%;
+
+
+}
+.display{
+  display: flex;
+  max-width: 80%;
+  flex-wrap: wrap;
+}
+.header{
+  display: flex;
+  align-items: left;
+}
+.filter-container{
+  display: flex;
+  justify-content: space-between;
+}
+.search-field{
+  border-right: 2px solid lightgray;
+}
+#search-input{
+  border: none;
+  
+
+}
